@@ -28,66 +28,46 @@
   </head>
 
   <body>
-    <div class="container-fluid bg-dark" id="acasa">
-      <div class="row py-2 px-lg-5">
-        <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-          <div class="d-inline-flex align-items-center text-white">
-            <small><i class="fa fa-phone-alt mr-2"></i>+40 770 252 586</small>
-            <small class="px-3">|</small>
-            <small
-              ><i class="fa fa-envelope mr-2"></i
-              >info@hibiscuslogistics.com</small
-            >
-          </div>
-        </div>
-        <div class="col-lg-6 text-center text-lg-right">
-          <div class="d-inline-flex align-items-center"></div>
-        </div>
-      </div>
-    </div>
     <div class="container-fluid p-0">
       <nav
-        class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5"
+        class="navbar navbar-expand-lg bg-light navbar-light py-1 py-lg-0 px-lg-3"
       >
-        <a href="index.html" class="navbar-brand ml-lg-3">
-          <img src="img/new/logo2.png" alt="Website Logo" />
+        <a class="navbar-brand ml-lg-3" href="/">
+          <img
+            src="img/new/logo2.png"
+            alt="Website Logo"
+            class="logo-max-height"
+          />
         </a>
-        <button
-          type="button"
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-between px-lg-3"
-          id="navbarCollapse"
-        >
+        <div class="justify-content-between px-lg-3">
           <div class="navbar-nav m-auto py-0">
-            <a href="#acasa" class="nav-item nav-link active">Acasă</a>
-            <a href="#desprenoi" class="nav-item nav-link">Despre</a>
-            <a href="#servicii" class="nav-item nav-link">Servicii</a>
-            <a href="#contact" class="nav-item nav-link">Contact</a>
+            <a href="tel:+40 770 252 586" class="nav-item nav-link"
+              >+40 770 252 586</a
+            >
+            <a
+              href="mailto:info@hibiscuslogistics.com"
+              class="nav-item nav-link"
+              >info@hibiscuslogistics.com</a
+            >
           </div>
         </div>
       </nav>
     </div>
-    <div class="jumbotron jumbotron-fluid mb-5" id="desprenoi">
+    <div class="jumbotron jumbotron-fluid mb-2" id="desprenoi">
       <div class="container text-center py-5">
         <h1 class="text-primary mb-4">
           Transport eficient și sigur cu Hibiscus Logistics
         </h1>
-        <h1 class="text-white display-3 mb-5">Servicii de logistică</h1>
+        <h1 class="text-white display-4 mb-3">Servicii de transport marfă</h1>
       </div>
     </div>
-    <div class="container-fluid py-5">
-      <div class="container">
+    <div class="container-fluid py-2">
+      <div class="container col-lg-8">
         <div class="row align-items-center">
-          <div class="col-lg-5 pb-4 pb-lg-0">
-            <img class="img-fluid w-100" src="img/new/vans.jpg" alt="" />
+          <div class="col-lg-8 pb-4 pb-lg-0">
+            <img class="img-fluid w-100" src="new/1.jpeg" alt="" />
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-4">
             <h2 class="text-primary text-uppercase font-weight-bold">
               Despre Noi
             </h2>
@@ -123,41 +103,6 @@
               sau sunați-ne astăzi pentru a începe colaborarea!
             </h5>
           </div>
-          <!-- <div class="col-lg-5">
-            <div class="bg-primary py-5 px-4 px-sm-5">
-              <form
-                action="submit.php"
-                method="post"
-                enctype="text/plain"
-                class="py-5"
-              >
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control border-0 p-4"
-                    placeholder="Nume și Prenume"
-                    required="required"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control border-0 p-4"
-                    placeholder="Email"
-                    required="required"
-                  />
-                </div>
-                <div>
-                  <button
-                    class="btn btn-dark btn-block border-0 py-3"
-                    type="submit"
-                  >
-                    Obțineți Oferta
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
@@ -204,7 +149,24 @@
         </div>
       </div>
     </div>
+    <section style="color: #000; background-color: #f3f2f2">
+      <div class="container py-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="fw-bold mb-4">Testimonials</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+              error amet numquam iure provident voluptate esse quasi, veritatis
+              totam voluptas nostrum quisquam eum porro a pariatur veniam.
+            </p>
+          </div>
+        </div>
 
+        <div class="row text-center" id="google-reviews">
+          <!-- Google reviews will be dynamically added here -->
+        </div>
+      </div>
+    </section>
     <div
       class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5"
       id="contact"
@@ -218,20 +180,14 @@
               <p>
                 <i class="fa fa-envelope mr-2"></i>info@hibiscuslogistics.com
               </p>
-              <!-- <div class="d-flex justify-content-start mt-4">
-                <a class="btn btn-outline-light btn-social mr-2" href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social mr-2" href="#"
+              <div class="d-flex justify-content-center mt-4">
+                <a
+                  class="btn btn-outline-light btn-social mr-2"
+                  href="https://www.facebook.com/profile.php?id=61556981530106"
+                  target="_blank"
                   ><i class="fab fa-facebook-f"></i
                 ></a>
-                <a class="btn btn-outline-light btn-social mr-2" href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href="#"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -250,14 +206,13 @@
         </div>
       </div>
     </div>
-    <!-- Footer End -->
 
-    <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary back-to-top"
       ><i class="fa fa-angle-double-up"></i
     ></a>
 
-    <!-- JavaScript Libraries -->
+    <div id="reviews"></div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
@@ -265,11 +220,56 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+      const apiKey = "YOUR_API_KEY";
+      const placeId = "YOUR_PLACE_ID";
+
+      fetch(
+        `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,reviews&key=${apiKey}`
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          const reviews = data.result.reviews;
+          const reviewsContainer = document.getElementById("google-reviews");
+
+          reviews.forEach((review) => {
+            const col = document.createElement("div");
+            col.classList.add("col-md-4", "mb-4", "mb-md-0");
+            col.innerHTML = `
+              <div class="card">
+                <div class="card-body py-4 mt-2">
+                  <div class="d-flex justify-content-center mb-4">
+                    <img src="${review.profile_photo_url}"
+                      class="rounded-circle shadow-1-strong" width="100" height="100" />
+                  </div>
+                  <h5 class="font-weight-bold">${review.author_name}</h5>
+                  <h6 class="font-weight-bold my-3">${
+                    review.relative_time_description
+                  }</h6>
+                  <ul class="list-unstyled d-flex justify-content-center">
+                    ${Array.from(
+                      { length: review.rating },
+                      () =>
+                        '<li><i class="fas fa-star fa-sm text-info"></i></li>'
+                    ).join("")}
+                  </ul>
+                  <p class="mb-2">
+                    <i class="fas fa-quote-left pe-2"></i>${review.text}
+                  </p>
+                </div>
+              </div>
+            `;
+            reviewsContainer.appendChild(col);
+          });
+        })
+        .catch((error) => {
+          console.error("Error fetching reviews:", error);
+        });
+    </script>
   </body>
 </html>
